@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <style>
+            #register-form{
+                width: 300px;
+                background-color: white;
+                padding: 24px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .input-item{
+                margin: 0%;
+                margin-bottom: 4px;
+                margin-top: 12px;
+            }
+
+            .checkbox{
+                margin-top: 12px;
+                margin-bottom: 12px;
+            }
+        </style>
+
+    </head>
+    <body style="background-color: lightblue;">
+        <form  id="register-form">
+            <h1>SignUp</h1>
+            <div>
+            <p>Full Name:</p>
+            <input class="input-item" type="text" name="Full Name">
+        </div>
+        <div>
+            <p class="input-item">Email:</p>
+            <input type="email" name="Email">
+        </div>
+        <div>
+            <p class="input-item">Password:</p>
+            <input type="password" name="password">
+        </div>
+        <div>
+            <p class="input-item">Confirm-Password:</p>
+            <input type="password" name="Confirm-Password">
+        </div>
+        <div>
+            <p class="input-item">Gender:</p>
+            <input type="radio" name="male" value="male">Male</input>
+            <input type="radio" name="female" value="female">Female</input>
+            <input type="radio" name="other" value="other">other</input>
+        </div>
+        <div>
+            <p class="input-item">Security Question:</p>
+            <select>
+                <option>What was your first pet name?</option>
+                <option>What was your first job?</option>
+                <option>What is your nick name?</option>
+            </select>
+            
+        </div>
+        <div>
+            <textarea name="answer" rows="6" cols="30">
+           
+        </textarea>
+        </div>
+        <div>
+            <input class="checkbox" type="checkbox" name="terms-conditions" value="accept"> I agree to accept the terms and condition</input>
+        </div>
+        <div>
+            <input type="submit" name="submit" value="submit">
+        </div>
+        </form>
+    </body>
+</html>
